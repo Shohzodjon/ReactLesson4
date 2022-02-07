@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    padding: 0;
+}
+.navbar1{
+    background: #222;
+    padding: 1rem 0;
+}
+.navbar1 h1{
+    color: #fff;
+    font-size: 1.6rem;
+}
+.navbar1 ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar1 li{
+    margin: 0 1rem;
+}
+.navbar1 a{
+    color: #999;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: .4s color linear;
+}
+.navbar1 .active{
+    color: #fff;
+}
+.navbar1 a:hover{
+    color: #fff;
+}
+.header--main{
+    height: 40vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+background: rgba(243, 236, 236, 0.952);
+}
+.header--main h2{
+    font-size: 3rem;
+    margin: .2rem 0;
+}
+.header--main p{
+    font-size: 1.1rem;
+
+}
